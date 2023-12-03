@@ -6,6 +6,8 @@ import (
 	"os"
 	"sync"
 	"time"
+
+	"github.com/h3th-IV/Test/sub"
 )
 
 var (
@@ -66,6 +68,7 @@ func printLetters(wg *sync.WaitGroup) {
 }
 
 func main() {
+	sub.Assignment()
 
 	// var mySLice = []string{"0", "1", "2", "3", "4"}
 	// for _, item := range mySLice {
